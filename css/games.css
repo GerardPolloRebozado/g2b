@@ -1,0 +1,219 @@
+.img-header {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background: radial-gradient(65% 100% at 50% 0%, #00FF94 0%, rgba(0, 255, 148, 0.25) 100%), linear-gradient(230deg, #000000 25%, #170059 100%), linear-gradient(215deg, #FFEBB9 10%, #19004E 80%), radial-gradient(100% 245% at 100% 100%, #FFFFFF 0%, #000353 100%), linear-gradient(125deg, #1400FF 0%, #3A0000 100%), linear-gradient(225deg, #00F0FF 30%, #000B6F 45%, #00EBFC 45%, #001676 65%, #00E1F6 65%, #001676 85%, #00ECFD 85%, #001676 100%), linear-gradient(135deg, #00F0FF 0%, #000B6F 15%, #00EBFC 15%, #001676 35%, #00E1F6 35%, #001676 55%, #00ECFD 55%, #001676 100%);
+  background-blend-mode: soft-light, screen, overlay, overlay, difference, overlay, normal; */
+
+  /* background: radial-gradient(100% 225% at 100% 0%, #FAFF00 0%, #000000 100%), linear-gradient(235deg, #DB00FF 0%, #000000 100%), linear-gradient(45deg, #241E92 0%, #241E92 40%, #5432D3 40%, #5432D3 50%, #7B6CF6 50%, #7B6CF6 70%, #E5A5FF 70%, #E5A5FF 100%), linear-gradient(180deg, #01024E 0%, #01024E 43%, #543864 43%, #543864 62%, #8B4367 62%, #8B4367 80%, #FF6464 80%, #FF6464 100%);
+  background-blend-mode: overlay, hard-light, overlay, normal; */
+
+  /* background: linear-gradient(70deg, #F9ED69 0%, #F9ED69 40%, #F08A5D calc(40% + 1px), #F08A5D 60%, #B83B5E calc(60% + 1px), #B83B5E 70%, #6A2C70 calc(70% + 1px), #6A2C70 100%); */
+
+  /* background: linear-gradient(180deg, #1400FF 0%, #000000 100%), linear-gradient(154.03deg, #33FF00 0%, #FF003D 74.04%), linear-gradient(341.1deg, #F0B4FF 7.52%, #1700A4 77.98%), radial-gradient(49.82% 80.51% at 49.82% 50%, #8100A2 0%, #FF3D00 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
+background-blend-mode: overlay, difference, difference, difference, normal; */
+
+
+background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+background-blend-mode: overlay, overlay, exclusion, normal;
+
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 20vh;
+  padding-bottom: 2vh;
+  margin-bottom: 4vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.textoCua {
+  background-color: transparent;
+  border: solid 0.5vw black;
+  border-radius: 10px;
+  width: 10vw;
+  height: 10Vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: BoldFont;
+  font-size: 3vw;
+}
+
+body {
+    background-color: #272727;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  grid-gap: 55px;
+  padding-left: 15%;
+  padding-right: 15%;
+  justify-content: center;
+  margin-bottom: 10vh;
+  }
+  
+.grid-item {
+color: white;
+height: 270px;
+}
+
+@media (max-width: 1457px) {
+  .grid {
+      grid-template-columns: repeat(2, 370px);
+  }
+}
+
+@media (max-width: 929px) {
+  .grid {
+      grid-template-columns: 370px;
+  }
+}
+
+.gamediv {
+  width: 100%;
+  height: 85%;
+  border-radius: 25px;
+  background:url(/dev_mxttw_3.2/images/guts.jpg);
+  transition: transform 0.4s ease-in-out;
+  /* sombra */
+  box-shadow: 10px 10px 10px 10px rgba(255,255,255,0.05);
+  position: relative;
+}
+
+.descuento {
+  border-radius: 10px 10px 0;
+  width: 12%;
+  height: 12%;
+  background: #c50d0d;
+  position: absolute;
+bottom: 0;
+left: 0;
+text-align: center;
+}
+
+.descuento > p {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#CitiesSkylines{
+  background:url(/dev_mxttw_3.2/images/gameImg/Cities_Skylines.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CStrailer{
+  display: none;
+}
+
+#CitiesSkylines:hover {
+  background: transparent;
+}
+
+#CitiesSkylines:hover .CStrailer{
+  display: flex;
+  width: 100%;
+  height: 110%;
+  border-radius: 25px;
+}
+  
+
+#EldenRing{
+  background:url(/dev_mxttw_3.2/images/gameImg/elden_ring.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#GodOfWar{
+  background:url(/dev_mxttw_3.2/images/gameImg/god_of_war.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Minecraft{
+  background:url(/dev_mxttw_3.2/images/gameImg/minecraft.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#MW2{
+  background:url(/dev_mxttw_3.2/images/gameImg/mw2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Spiderman{
+  background:url(/dev_mxttw_3.2/images/gameImg/spiderman.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#TheLastOfUs{
+  background:url(/dev_mxttw_3.2/images/gameImg/The_Last_of_Us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#WatchDogs{
+  background:url(/dev_mxttw_3.2/images/gameImg/Watch_Dogs_Legion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#hollowknight{
+  background:url(/dev_mxttw_3.2/images/gameImg/hollowknightgame.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.gamediv:hover {
+  transform: scale(1.05);
+}
+  
+.title{
+  padding-right: 70%;
+}
+
+.textNEW{
+  display: flex;
+  margin-top: 10px;
+  font-family: NormalFont;
+  font-weight: bold;
+}
+
+.titleNEW{
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.priceNEW{
+  margin-right: 10px;
+  margin-left: auto;
+  font-size: 25px;
+}

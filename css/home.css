@@ -1,0 +1,222 @@
+.container {
+    position: relative;
+}
+
+.imagendiv {
+    background: url(/dev_mxttw_3.2/images/hollowknight.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* height: 550px; */
+    height: 550px;
+    z-index: -1;
+}
+/* Efecto de triangulo debajo la imagen */
+.imagendiv::after {
+    content: "";
+    clip-path: polygon(0 100%,100% 100%,0 0);
+    background: #272727;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.News{
+    width: 100%;
+    background-color: #272727;
+    padding-bottom: 3.5%;
+}
+.zonetittle{
+    font-family: BoldFont;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1.5%;
+    z-index: 2;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-gap: 55px;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: center;
+    }
+    
+.grid-item {
+color: white;
+height: 270px;
+}
+
+@media (max-width: 1457px) {
+    .grid {
+        grid-template-columns: repeat(2, 370px);
+    }
+}
+
+@media (max-width: 929px) {
+    .grid {
+        grid-template-columns: 370px;
+    }
+}
+
+.gamediv {
+    width: 100%;
+    height: 85%;
+    border-radius: 25px;
+    background:url(/dev_mxttw_3.2/images/guts.jpg);
+    transition: transform 0.4s ease-in-out;
+}
+.gamediv:hover {
+    transform: scale(1.05);
+}
+    
+.title{
+    padding-right: 70%;
+}
+
+.textNEW{
+    display: flex;
+    margin-top: 10px;
+    font-family: NormalFont;
+    font-weight: bold;
+}
+
+.titleNEW{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.priceNEW{
+    margin-right: 10px;
+    margin-left: auto;
+    font-size: 25px;
+}
+
+/* Efecto de triangulo debajo la imagen */
+/* .News::after {
+    content: "";
+    clip-path: polygon(100% 0,100% 100%,0 100%);
+    background: black;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+}  */
+
+.Reviews{
+    width: 100%;
+    background-color: black;
+    padding-bottom: 2%;
+}
+
+/* .maintittle{
+    color: white;
+    font-size: 30px;
+    font-family: BoldFont;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    display: flex;
+} */
+.MainContainer{
+    display: flex;
+    color: white;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    flex-direction: column;
+    position: relative;
+}
+.maintittle{
+    font-family: BoldFont;
+}
+.mainprice{
+    font-family: NormalFont;
+    font-size: 25px;
+}
+.mainbutton{
+    font-family: BoldFont;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #272727;
+    
+}
+.mainbutton{
+    background: black;
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    font-family: BoldFont;
+}
+
+
+.mainbutton:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+
+/* PARA LAS REVIEWS */
+
+.gridREV {
+    display: grid;
+    grid-template-columns: repeat(2, 700px);
+    grid-gap: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: center;
+    }
+    
+.grid-item-REV {
+    background-color: white;
+    color: white;
+    height: 270px;
+    border-radius: 25px;
+}
+
+.textrev{
+    /*Poner en medio*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (max-width: 1457px) {
+    .News{
+        padding-bottom: 25px;
+    }
+    .Reviews{
+        padding-top: 20px;
+    }
+    .gridREV {
+        grid-template-columns: 700px;
+    }
+    .Reviews{
+        padding-bottom: 5%;
+    }
+}
+
+@media (max-width: 929px) {
+    .News{
+        padding-bottom: 25px;
+    }
+    .Reviews{
+        padding-top: 20px;
+    }
+    .gridREV {
+        grid-template-columns: 700px;
+    }
+}

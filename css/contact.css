@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: BoldFont;
+    src: url(/dev_mxttw_3.2/font/Demo_Fonts/Fontspring-DEMO-proximanovacond-bold.otf);
+}
+@font-face {
+    font-family: NormalFont;
+    src: url(/dev_mxttw_3.2/font/Demo_Fonts/Fontspring-DEMO-proximanovacond-light.otf);
+}
+
+.cuerpo {
+    background-color: #272727;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.News{
+    background-color: #555555;
+    padding-bottom: 20px;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    font-family: BoldFont;
+    border-radius: 12px;s
+}
+
+  /* fondo */
+.zonetittle{
+    font-family: BoldFont;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1.5%;
+    z-index: 2;
+}
+.btn{
+    font-family: BoldFont;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #272727;
+    font-family: BoldFont;
+    font-size: 18px;
+    font-weight: bold;
+  }
+    
+    form {
+      border: 2px solid var(--second-color);
+      border-radius: 4px;
+      /* padding: 2.5rem; */
+      margin-left: 5rem;
+      margin-right: 5rem; 
+      background-color: var(--third-color);
+    }
+    
+    .form-group {
+      padding: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+    
+    input,
+    textarea {
+      border: 1px solid var(--second-color);
+      border-radius: 4px;
+      color: var(--second-color);
+    }
+    
+    input:not(input[type="radio"], input[type="checkbox"]),
+    textarea,
+    select {
+      width: 100%;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+    
+    .inline {
+      display: inline;
+    }
+    
+    
+    .is-required::after {
+      content: '*';
+      color: red;
+    }
+    

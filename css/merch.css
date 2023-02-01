@@ -1,0 +1,209 @@
+:root {}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: wavy;
+}
+
+.mainbody>div {
+
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 6vw;
+    width: auto;
+    text-align: center;
+
+
+}
+
+.maintitle {
+    position: relative;
+    /* right: 0px; */
+    align-self: center;
+    /* text-shadow: #004359; */
+    font-size: 5vh;
+    right: -100rem;
+
+
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+    animation-name: bannertitle;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-delay: 250ms;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+
+
+}
+
+@keyframes bannertitle {
+
+    from {
+        right: -100rem;
+        color: rgba(255, 255, 255, 0.1);
+    }
+
+    to {
+        right: 0;
+        position: relative;
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+.mainbanner {
+    justify-content: center;
+    display: flex;
+    width: 1rem;
+    height: 15vh;
+    background-image: url("../images/god-of-war-banner.jpg");
+    background-repeat: no-repeat;
+
+
+    background-size: cover;
+    background-position-y: -13rem;
+    background-position: 0%;
+    padding: 1rem;
+    z-index: 2;
+}
+
+.maingrid {
+    background-color: #fbfaee;
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4rem;
+    row-gap: 2rem;
+}
+
+.griditem {
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.griditem:hover {
+    animation: itemshadow 0.5s forwards;
+    cursor: pointer;
+}
+
+/* :not(griditem:hover) {
+    animation: itemshadow 2s reverse;
+
+} */
+
+@keyframes itemshadow {
+    from {
+        background-color: #fbfaee;
+
+
+    }
+
+    to {
+        background-color: rgb(218, 218, 218);
+        transform: scale(1.22);
+    }
+}
+
+.griditem>img {
+    overflow: hidden;
+    width: 100%;
+    height: max-content;
+    max-width: 100%;
+    max-height: 100%;
+    height: fit-content;
+    padding: 1vh;
+    max-height: none;
+
+
+
+    align-self: center;
+
+}
+
+.griditem>div {
+    display: flex;
+    font-size: 2rem;
+
+
+}
+
+.griditem>div>h2 {
+    text-align: start;
+    font-size: 2vh;
+    align-self: center;
+    margin: 2vh;
+    margin-top: 1vh;
+}
+
+.griditem>div>p {
+
+    align-self: flex-start;
+    padding: 0.4vh;
+    margin-bottom: 0px;
+
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 0, 0);
+}
+
+.oferta {
+    position: absolute;
+
+    align-self: flex-end;
+    /* margin: 1vh; */
+    margin-bottom: 0px;
+}
+
+
+@media (max-width: 1350px) {
+
+    .maingrid {
+        background-color: #fbfaee;
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+    }
+
+    .mainbody>div {
+
+        padding-left: 15%;
+        padding-right: 15%;
+
+        width: auto;
+        text-align: center;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .maingrid {
+        background-color: #fbfaee;
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+    }
+
+    .mainbody>div {
+
+        padding-left: 10%;
+        padding-right: 10%;
+
+        width: auto;
+        text-align: center;
+
+
+    }
+}

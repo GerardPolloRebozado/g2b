@@ -5,5 +5,14 @@
     "navbar_contact": "CONTACTE",
     "maintitle": "EL NOSTRE MERCHANDISING",
     "footer_company": "EMPRESA:",
-    "new_games": "JOCS"
+    "new_games": "JOCS",
+
+
+    "Contacto": "Contacte",
+    "t_first_name": "Nom",
+    "last_name": "Cognom",
+    "Mensaje": "Missatge",
+    "Edad": "Edat",
+    "cum": "Aniversari",
+    "enviar": "Enviar"
 }

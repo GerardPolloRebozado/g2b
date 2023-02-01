@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/header-footer.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <script src="./js/contact.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -27,14 +28,14 @@
     <!-- PART 2 -->
     <div class="cuerpo">
         <div class="News">
-            <h1 class="zonetittle">Contact</h1>
+            <h1 class="zonetittle" id="Contacto">Contact</h1>
             <form name="register" method="POST" data-netlify="true">
                 <div class="form-group">
                     <label for="first-name" id="t_first_name">First Name</label>
                     <input type="text" id="first-name" name="first-name" placeholder="Write your first name" />
                 </div>
                 <div class="form-group">
-                    <label for="last-name">Last Name</label>
+                    <label for="last-name" id="last_name">Last Name</label>
                     <input type="text" id="last-name" name="last-name" placeholder="Write your last name" />
                 </div>
                 <div class="form-group">
@@ -42,18 +43,18 @@
                     <input type="email" id="email" name="email" required />
                 </div>
                 <div class="form-group">
-                    <label for="welcome-message">Welcome Message</label>
+                    <label for="welcome-message" id="Mensaje">Message</label>
                     <textarea name="welcome-message" id="welcome-message"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="age">Age</label>
+                    <label for="age" id="Edad">Age</label>
                     <input type="number" id="age" name="age" />
                 </div>
                 <div class="form-group">
-                    <label for="birthday">Birthday</label>
+                    <label for="birthday" id="cum">Birthday</label>
                     <input type="date" id="birthday" name="brithday" />
                 </div>
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit" class="btn" id="enviar">Submit</button>
             </form>
         </div>
     </div>

@@ -5,5 +5,13 @@
     "navbar_contact": "CONTACTO",
     "maintitle": "NUESTRO MERCHANDISING",
     "footer_company": "EMPRESA:",
-    "new_games": "JUEGOS"
+    "new_games": "JUEGOS",
+
+    "Contacto": "Contacto",
+    "t_first_name": "Nombre",
+    "last_name": "Apellido",
+    "Mensaje": "Mensaje",
+    "Edad": "Edad",
+    "cum": "Cumpleaños",
+    "enviar": "Enviar"
 }

@@ -59,7 +59,6 @@ height: 270px;
   width: 100%;
   height: 85%;
   border-radius: 25px;
-  background:url(/dev_mxttw_3.2/images/guts.jpg);
   transition: transform 0.4s ease-in-out;
   /* sombra */
   box-shadow: 10px 10px 10px 10px rgba(255,255,255,0.05);
@@ -72,9 +71,9 @@ height: 270px;
   height: 12%;
   background: #c50d0d;
   position: absolute;
-bottom: 0;
-left: 0;
-text-align: center;
+  bottom: 0;
+  left: 0;
+  text-align: center;
 }
 
 .descuento > p {
@@ -84,12 +83,6 @@ text-align: center;
   justify-content: center;
   align-items: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-#CitiesSkylines{
-  background:url(/dev_mxttw_3.2/images/gameImg/Cities_Skylines.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .ELtrailer{
@@ -231,59 +224,64 @@ height: 100%;
   border-radius: 25px;
   z-index: 99;
 }
-  
+#CitiesSkylines{
+  background:url(../images/gameImg/Cities_Skylines.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 #EldenRing{
-  background:url(/dev_mxttw_3.2/images/gameImg/elden_ring.jpg);
+  background:url(../images/gameImg/elden_ring.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #GodOfWar{
-  background:url(/dev_mxttw_3.2/images/gameImg/god_of_war.jpg);
+  background:url(../images/gameImg/god_of_war.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #Minecraft{
-  background:url(/dev_mxttw_3.2/images/gameImg/minecraft.jpg);
+  background:url(../images/gameImg/minecraft.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #MW2{
-  background:url(/dev_mxttw_3.2/images/gameImg/mw2.jpg);
+  background:url(../images/gameImg/mw2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #Spiderman{
-  background:url(/dev_mxttw_3.2/images/gameImg/spiderman.jpeg);
+  background:url(../images/gameImg/spiderman.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #TheLastOfUs{
-  background:url(/dev_mxttw_3.2/images/gameImg/The_Last_of_Us.jpg);
+  background:url(../images/gameImg/The_Last_of_Us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #WatchDogs{
-  background:url(/dev_mxttw_3.2/images/gameImg/Watch_Dogs_Legion.jpg);
+  background:url(../images/gameImg/Watch_Dogs_Legion.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #hollowknight{
-  background:url(/dev_mxttw_3.2/images/gameImg/hollowknightgame.jpeg);
+  background:url(../images/gameImg/hollowknightgame.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

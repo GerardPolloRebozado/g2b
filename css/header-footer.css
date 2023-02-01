@@ -4,17 +4,16 @@ body {
 
 @font-face {
     font-family: BoldFont;
-    src: url(/dev_mxttw_3.2/font/Demo_Fonts/Fontspring-DEMO-proximanovacond-bold.otf);
+    src: url(../font/Demo_Fonts/Fontspring-DEMO-proximanovacond-bold.otf);
 }
 @font-face {
     font-family: NormalFont;
-    src: url(/dev_mxttw_3.2/font/Demo_Fonts/Fontspring-DEMO-proximanovacond-light.otf);
+    src: url(../font/Demo_Fonts/Fontspring-DEMO-proximanovacond-light.otf);
 }
-
-
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 .logoNav {
@@ -41,7 +40,6 @@ nav{
 nav > a {
     margin: 5px;
     font-size: 20px;
-    text-decoration: none;
 }
 
 header {
@@ -56,12 +54,6 @@ header {
     z-index: 2;
     background-color: black;
 }
-
-
-/* paleta colores
-azul: rgb(0, 67, 89)
-negro: rgb(0, 14, 24)
-*/
 
 .headerbutton{
     align-items: center;

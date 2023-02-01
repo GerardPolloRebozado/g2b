@@ -20,5 +20,7 @@ async function changeLanguage(lang) {
     document.getElementById('navbar_games').innerHTML = data.navbar_games;
     document.getElementById('navbar_merch').innerHTML = data.navbar_merch;
     document.getElementById('navbar_contact').innerHTML = data.navbar_contact;
+    document.getElementById('footer_company').innerHTML = data.footer_company;
+    document.getElementById('new_games').innerHTML = data.new_games;
 
 }

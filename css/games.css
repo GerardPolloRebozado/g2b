@@ -15,14 +15,18 @@
 background-blend-mode: overlay, difference, difference, difference, normal; */
 
 
-background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
-background-blend-mode: overlay, overlay, exclusion, normal;
+/* background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+background-blend-mode: overlay, overlay, exclusion, normal; */
+/* 
+background: linear-gradient(180deg, #012b35 0%, #00172C 100%), linear-gradient(36deg, #FAFF00 0%, #800000 73%), linear-gradient(110deg, #001D38 30%, #FBFF49 100%), linear-gradient(140deg, #61FF00 0%, #040EFF 72%), linear-gradient(127deg, #FFB800 0%, #02004D 100%), linear-gradient(140deg, #6DCA4C 28%, #CD0000 100%), radial-gradient(100% 100% at 70% 0%, #7A3B00 0%, #49B8A4 100%);
+background-blend-mode: overlay, color-dodge, difference, difference, difference, color-dodge, normal; */
 
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 20vh;
   padding-bottom: 2vh;
   margin-bottom: 4vh;
+  background-color: #555555;
 }
 
 @keyframes gradient {
@@ -39,16 +43,14 @@ background-blend-mode: overlay, overlay, exclusion, normal;
 
 .textoCua {
   background-color: transparent;
-  border: solid 0.5vw black;
   border-radius: 10px;
-  width: 10vw;
   height: 10Vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: white;
   font-family: BoldFont;
-  font-size: 3vw;
+  font-size: 7vw;
 }
 
 body {
@@ -119,6 +121,37 @@ text-align: center;
   background-size: cover;
 }
 
+.ELtrailer{
+  display: none;
+}
+
+#EldenRing:hover {
+  background: transparent;
+}
+
+#EldenRing:hover .ELtrailer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  
+}
+
+.GoWtrailer{
+  display: none;
+}
+
+#GodOfWar:hover {
+  background: transparent;
+}
+
+#GodOfWar:hover .GoWtrailer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
 .CStrailer{
   display: none;
 }
@@ -130,8 +163,102 @@ text-align: center;
 #CitiesSkylines:hover .CStrailer{
   display: flex;
   width: 100%;
-  height: 110%;
+  height: 100%;
   border-radius: 25px;
+}
+
+.MCtrailer{
+  display: none;
+}
+
+#Minecraft:hover {
+  background: transparent;
+}
+
+#Minecraft:hover .MCtrailer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.MW2trailer{
+  display: none;
+}
+
+#MW2:hover {
+  background: transparent;
+}
+
+#MW2:hover .MW2trailer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.SPtrailer{
+display: none;
+width: 100%;
+height: 100%;
+  
+}
+
+#Spiderman:hover {
+  background: transparent;
+}
+
+#Spiderman:hover .SPtrailer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.HKtrailer{
+  display: none;
+}
+
+#hollowknight:hover {
+  background: transparent;
+}
+
+#hollowknight:hover .HKtrailer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.WDtrailer{
+  display: none;
+}
+
+#WatchDogs:hover {
+  background: transparent;
+}
+
+#WatchDogs:hover .WDtrailer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.TLoUtrailer{
+  display: none;
+}
+
+#TheLastOfUs:hover {
+  background: transparent;
+}
+
+#TheLastOfUs:hover .TLoUtrailer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  z-index: 99;
 }
   
 

@@ -15,5 +15,17 @@ async function changeLanguage(lang) {
     const response = await fetch(`./i18n_index/${lang}.json`);
     const data = await response.json();
 
-
+    document.getElementById('navbar_home').innerHTML = data.navbar_home;
+    document.getElementById('navbar_games').innerHTML = data.navbar_games;
+    document.getElementById('navbar_merch').innerHTML = data.navbar_merch;
+    document.getElementById('navbar_contact').innerHTML = data.navbar_contact;
+    document.getElementById('footer_company').innerHTML = data.footer_company;
+    document.getElementById('new_games').innerHTML = data.new_games;
+    document.getElementById('WhoAreWe').innerHTML = data.WhoAreWe;
+    document.getElementById('footer_games').innerHTML = data.footer_games;
+    document.getElementById('footer_sponsors').innerHTML = data.footer_sponsors;
+    document.getElementById('footer_TC').innerHTML = data.footer_TC;
+    document.getElementById('footer_privacy').innerHTML = data.footer_privacy;
+    document.getElementById('social').innerHTML = data.social;
+    document.getElementById('footer_resources').innerHTML = data.footer_resources;
 }

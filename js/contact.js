@@ -12,7 +12,8 @@ async function changeLanguage(lang) {
     window.history.replaceState({}, '', newURL);
 
     // Obtenir el fitxer json corresponent
-    const response = await fetch(`./i18n/${lang}.json`);
+
+const response = await fetch(`./i18n_contact/${lang}.json`);
     const data = await response.json();
 
 
@@ -29,3 +30,4 @@ async function changeLanguage(lang) {
 
 
 }
+

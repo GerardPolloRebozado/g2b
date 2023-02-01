@@ -2,16 +2,7 @@
     "navbar_home": "INICI",
     "navbar_games": "JOCS",
     "navbar_merch": "MERCHANDISING",
-    "navbar_contact": "CONTACTE",
-    "maintitle": "EL NOSTRE MERCHANDISING",
-    "footer_company": "EMPRESA:",
-    "WhoAreWe": "Qui som?",
-    "footer_games": "Jocs",
-    "footer_sponsors": "PATROCINADORS",
-    "footer_resources": "RECURSOS",
-    "footer_TC": "Termes i <br> Condicions",
-    "footer_privacy": "Política de Privacitat",
-    "social": "Xarxes Socials",
+    "navbar_contact": "Contacte",
     "m_amongusplush": "Peluix Among Us",
     "m_helloneighborfunko": "Funko Pop Hello Neighbor",
     "m_kirbyshirt": "Samarreta Kirby",
@@ -24,5 +15,4 @@
     "m_kirbyplush": "Peluix Kirby",
     "m_kratosfunko": "Funko Pop Kratos",
     "m_creepershirt": "Samarreta Creeper"
-
 }

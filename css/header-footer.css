@@ -4,11 +4,11 @@ body {
 
 @font-face {
     font-family: BoldFont;
-    src: url(../font/Demo_Fonts/Fontspring-DEMO-proximanovacond-bold.otf);
+    src: url(../font/Fontspring-DEMO-proximanova-bold.otf);
 }
 @font-face {
     font-family: NormalFont;
-    src: url(../font/Demo_Fonts/Fontspring-DEMO-proximanovacond-light.otf);
+    src: url(../font/Fontspring-DEMO-proximanova-light.otf);
 }
 
 a {

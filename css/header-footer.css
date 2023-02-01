@@ -162,3 +162,36 @@ header {
 .social-networks { grid-area: social-networks; }
 
 
+@media (max-width: 450px) {
+nav > a {
+    margin-top:10vh;
+}
+header {
+    padding-bottom: 5vh;
+}
+
+.headerbutton{
+height: 30%;
+}
+
+.logo{
+    display: none;
+    grid-area: none;
+}
+.footer {
+    padding-left: 7vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "company resources about"
+    "how-it-works aa terms-and"
+    "pricing aaaa privacy-polici"
+    "docs aaaazc- social-networks"
+    ". no-se-que-poner .";
+
+}
+}
+
+.footer > div {
+    margin-bottom: 0.5vh;
+}

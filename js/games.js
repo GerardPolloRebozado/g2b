@@ -12,7 +12,7 @@ async function changeLanguage(lang) {
     window.history.replaceState({}, '', newURL);
 
     // Obtenir el fitxer json corresponent
-    const response = await fetch(`./i18n/${lang}.json`);
+    const response = await fetch(`./i18n_games/${lang}.json`);
     const data = await response.json();
 
     // Canviar els texts (Aquesta és la part que heu de modificar)
@@ -22,5 +22,11 @@ async function changeLanguage(lang) {
     document.getElementById('navbar_contact').innerHTML = data.navbar_contact;
     document.getElementById('footer_company').innerHTML = data.footer_company;
     document.getElementById('new_games').innerHTML = data.new_games;
-
+    document.getElementById('WhoAreWe').innerHTML = data.WhoAreWe;
+    document.getElementById('footer_games').innerHTML = data.footer_games;
+    document.getElementById('footer_sponsors').innerHTML = data.footer_sponsors;
+    document.getElementById('footer_TC').innerHTML = data.footer_TC;
+    document.getElementById('footer_privacy').innerHTML = data.footer_privacy;
+    document.getElementById('social').innerHTML = data.social;
+    document.getElementById('footer_resources').innerHTML = data.footer_resources;
 }

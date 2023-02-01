@@ -1,209 +1,301 @@
-:root {}
-
-a {
-    text-decoration: none;
-}
-
-.active {
-    text-decoration: wavy;
-}
-
-.mainbody>div {
-
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 6vw;
-    width: auto;
-    text-align: center;
-
-
-}
-
-.maintitle {
-    position: relative;
-    /* right: 0px; */
-    align-self: center;
-    /* text-shadow: #004359; */
-    font-size: 5vh;
-    right: -100rem;
-
-
-    text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
-    animation-name: bannertitle;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-    animation-delay: 250ms;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
-
-
-}
-
-@keyframes bannertitle {
-
-    from {
-        right: -100rem;
-        color: rgba(255, 255, 255, 0.1);
-    }
-
-    to {
-        right: 0;
-        position: relative;
-        color: rgba(255, 255, 255, 1);
-    }
-}
-
-.mainbanner {
-    justify-content: center;
-    display: flex;
-    width: 1rem;
-    height: 15vh;
-    background-image: url("../images/god-of-war-banner.jpg");
-    background-repeat: no-repeat;
-
-
-    background-size: cover;
-    background-position-y: -13rem;
-    background-position: 0%;
-    padding: 1rem;
-    z-index: 2;
-}
-
-.maingrid {
-    background-color: #fbfaee;
-    padding-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 4rem;
-    row-gap: 2rem;
-}
-
-.griditem {
-    display: flex;
-    flex-direction: column;
-    height: 25rem;
-    overflow: hidden;
+.img-header {
     display: flex;
     align-items: center;
-
-
+    justify-content: center;
+    background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #1e1e1e 60%, #1e1e1e 67%, #1e1e1e 67%, #0F0A3C 100%);
+    background-blend-mode: overlay, hard-light, normal;
+    background-size: 400% 400%;
+    animation: gradient 10s infinite;
+    height: 15vh;
+    margin-bottom: 5vh;
 }
 
-.griditem:hover {
-    animation: itemshadow 0.5s forwards;
-    cursor: pointer;
-}
 
-/* :not(griditem:hover) {
-    animation: itemshadow 2s reverse;
-
-} */
-
-@keyframes itemshadow {
-    from {
-        background-color: #fbfaee;
-
-
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
     }
 
-    to {
-        background-color: rgb(218, 218, 218);
-        transform: scale(1.22);
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
     }
 }
 
-.griditem>img {
-    overflow: hidden;
-    width: 100%;
-    height: max-content;
-    max-width: 100%;
-    max-height: 100%;
-    height: fit-content;
-    padding: 1vh;
-    max-height: none;
 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
 
+    50% {
+        background-position: 100% 50%;
+    }
 
-    align-self: center;
-
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-.griditem>div {
+
+.textoCua {
+    height: 10Vh;
     display: flex;
-    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: BoldFont;
+    font-size: 6vw;
+}
 
+body {
+    background-color: #272727;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-gap: 55px;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+
+.grid-item {
+    color: white;
+    height: 370px;
 
 }
 
-.griditem>div>h2 {
-    text-align: start;
-    font-size: 2vh;
-    align-self: center;
-    margin: 2vh;
-    margin-top: 1vh;
+@media (max-width: 1457px) {
+    .grid {
+        grid-template-columns: repeat(3, 270px);
+    }
 }
 
-.griditem>div>p {
+@media (max-width: 929px) {
+    .grid {
+        grid-template-columns: repeat(2, 240px);
+    }
 
-    align-self: flex-start;
-    padding: 0.4vh;
-    margin-bottom: 0px;
-
-    background-color: rgb(221, 221, 221);
-    color: rgb(0, 0, 0);
+    .grid-item {
+        height: 400px;
+    }
 }
 
-.oferta {
+@media (max-width: 580px) {
+    .grid {
+        grid-template-columns: repeat(1, 350px);
+    }
+
+    .grid-item {
+        height: 400px;
+    }
+}
+
+.merchdiv {
+    width: 100%;
+    height: 85%;
+    border-radius: 25px;
+    transition: transform 0.4s ease-in-out;
+
+    position: relative;
+    background-color: #555555;
+}
+
+
+.descuento {
+    border-radius: 10px 10px 0;
+    width: 20%;
+    height: 12%;
+    background: #c50d0d;
     position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
 
-    align-self: flex-end;
-    /* margin: 1vh; */
-    margin-bottom: 0px;
+.descuento>p {
+    padding-top: 15%;
+    font-size: 20px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
-@media (max-width: 1350px) {
+.merchimg {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 
-    .maingrid {
-        background-color: #fbfaee;
-        padding-top: 4rem;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 1.5rem;
-        row-gap: 1.5rem;
-    }
+    background-repeat: no-repeat;
+    background-position: center;
 
-    .mainbody>div {
-
-        padding-left: 15%;
-        padding-right: 15%;
-
-        width: auto;
-        text-align: center;
-
-    }
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 
 }
 
-@media (max-width: 768px) {
+#amongusplush {
+    background-image: url("../images/merch/amogus.png");
+}
 
-    .maingrid {
-        background-color: #fbfaee;
-        padding-top: 4rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 1.5rem;
-        row-gap: 1.5rem;
-    }
+#helloneighbor {
+    background-image: url("../images/merch/funko1-holavecino.png");
+}
 
-    .mainbody>div {
-
-        padding-left: 10%;
-        padding-right: 10%;
-
-        width: auto;
-        text-align: center;
+#kirbyshirt {
 
 
-    }
+    background-image: url("../images/merch/kirbyshirt.png");
+}
+
+#kratosshirt {
+
+
+    background-image: url("../images/merch/kratosShirt.png");
+}
+
+#amogusshirt {
+
+    background-image: url("../images/merch/amogusShirt.png");
+}
+
+#berserkshirt {
+
+    background-image: url("../images/merch/berserkShirt.png");
+}
+
+#snorlaxplush {
+
+    background-image: url("../images/merch/snorlax.png");
+}
+
+#llamaplush {
+
+    background-image: url("../images/merch/llamaFortnite.png");
+}
+
+#kirbyplush {
+
+    background-image: url("../images/merch/kirbyplush.png");
+}
+
+#kratosfunko {
+
+    background-image: url("../images/merch/kratosfunko.png");
+}
+
+#quagsireplush {
+
+    background-image: url("../images/merch/quag.png");
+}
+
+#minecraftshirt {
+
+    background-image: url("../images/merch/minecraftshirt.png");
+}
+
+
+
+#CitiesSkylines {
+    background: url(../images/gameImg/Cities_Skylines.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#EldenRing {
+    background: url(../images/gameImg/elden_ring.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#GodOfWar {
+    background: url(../images/gameImg/god_of_war.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Minecraft {
+    background: url(../images/gameImg/minecraft.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#MW2 {
+    background: url(../images/gameImg/mw2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Spiderman {
+    background: url(../images/gameImg/spiderman.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#TheLastOfUs {
+    background: url(../images/gameImg/The_Last_of_Us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#WatchDogs {
+    background: url(../images/gameImg/Watch_Dogs_Legion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hollowknight {
+    background: url(../images/gameImg/hollowknightgame.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.merchdiv:hover {
+    transform: scale(1.05);
+}
+
+.title {
+    padding-right: 70%;
+}
+
+.textNEW {
+    display: flex;
+    margin-top: 10px;
+    font-family: NormalFont;
+    font-weight: bold;
+}
+
+.titleNEW {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.priceNEW {
+    margin-right: 10px;
+    margin-left: auto;
+    font-size: 25px;
 }

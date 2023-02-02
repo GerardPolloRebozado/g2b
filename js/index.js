@@ -27,4 +27,5 @@ async function changeLanguage(lang) {
     document.getElementById('footer_privacy').innerHTML = data.footer_privacy;
     document.getElementById('social').innerHTML = data.social;
     document.getElementById('footer_resources').innerHTML = data.footer_resources;
+    document.getElementById('prepurchase').innerHTML = data.prepurchase;
 }

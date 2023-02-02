@@ -59,6 +59,9 @@ height: 270px;
     height: 85%;
     border-radius: 25px;
     transition: transform 0.4s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .gamediv:hover {
     transform: scale(1.05);

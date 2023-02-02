@@ -380,19 +380,8 @@ border-radius: 25px;
     .estrellas{
         margin-top: 12%;
     }
-    #logo_review{
-        display: none;
-    }
 }
     
 .textoREV{
     text-align: justify;
-}
-
-#logo_review{
-    position: absolute;
-    width: 130px;
-    height: 50px;
-    /* TODO: cambiar margin */
-    margin-top: 23vh;
 }

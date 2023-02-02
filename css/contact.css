@@ -1,4 +1,3 @@
-
 /* Importar fuentes para el texto */
 @font-face {
     font-family: BoldFont;
@@ -10,7 +9,7 @@
 }
 
 /* Ajustes fondo */
-#cuerpo {
+.cuerpo {
     background-color: #272727;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -18,7 +17,7 @@
 }
 
 /* Ajustes div principal donde esta el formulario y el titulo */
-#News{
+.News{
     background-color: #555555;
     padding-bottom: 20px;
     color: white;

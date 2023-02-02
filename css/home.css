@@ -217,12 +217,21 @@ height: 270px;
     border-left-style: none;
     border-right-style: none;
 }
+.textREV{
+    position: absolute;
+}
 
 .estrellas{
-    display: flex;
-    justify-content: center;
-
     margin-top: 5vh;
+    position: absolute;
+}
+
+.textoREV {
+    position: relative;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
 }
 
 @media (max-width: 1457px) {
@@ -255,5 +264,9 @@ height: 270px;
     }
     .gridREV {
         grid-template-columns: 370px;
+        }
+    
+        .textoREV{
+            text-align: justify;
         }
 }

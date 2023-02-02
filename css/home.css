@@ -218,6 +218,13 @@ height: 270px;
     border-right-style: none;
 }
 
+.estrellas{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5vh;
+}
+
 @media (max-width: 1457px) {
     .grid {
         grid-template-columns: repeat(2, 370px);

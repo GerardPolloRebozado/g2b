@@ -117,7 +117,9 @@ height: 270px;
 }
 #Forspoken{
     background:url(../images/Home/Forspoken.jpeg);
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 

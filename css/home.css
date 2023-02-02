@@ -40,6 +40,7 @@
     z-index: 2;
 }
 
+/* GRID + IMAGENES */
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 370px);
@@ -59,9 +60,6 @@ height: 270px;
     height: 85%;
     border-radius: 25px;
     transition: transform 0.4s ease-in-out;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 .gamediv:hover {
     transform: scale(1.05);
@@ -120,6 +118,111 @@ height: 270px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* VIDEOS */
+.CStrailer{
+    display: none;
+}
+
+#HighOnLife:hover {
+background: transparent;
+}
+
+#HighOnLife:hover .CStrailer{
+display: flex;
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+#Subnautica:hover {
+background: transparent;
+}
+
+#Subnautica:hover .CStrailer{
+display: flex;
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+#DragonBall:hover {
+background: transparent;
+}
+
+#DragonBall:hover .CStrailer{
+display: flex;
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+#Ghostrunner:hover {
+background: transparent;
+}
+
+#Ghostrunner:hover .CStrailer{
+display: flex;
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+#Cuphead:hover {
+background: transparent;
+}
+
+#Cuphead:hover .CStrailer{
+display: flex;
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+#Sekiro:hover {
+background: transparent;
+}
+
+#Sekiro:hover .CStrailer{
+display: flex;
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+#BreadAndFred:hover {
+background: transparent;
+}
+
+#BreadAndFred:hover .CStrailer{
+display: flex;
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+#Deadspace:hover {
+background: transparent;
+}
+
+#Deadspace:hover .CStrailer{
+display: flex;
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+
+#Forspoken:hover {
+background: transparent;
+}
+
+#Forspoken:hover .CStrailer{
+display: flex;
+width: 100%;
+height: 100%;
+border-radius: 25px;
 }
 
 

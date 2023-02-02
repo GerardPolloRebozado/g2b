@@ -49,13 +49,11 @@
   }
     
     form {
-      border: 2px solid var(--second-color);
       border-radius: 4px;
       /* padding: 2.5rem; */
       margin-left: 5rem;
       margin-right: 5rem; 
-      background-color: var(--third-color);
-      color: black;
+            color: black;
     }
     label{
       color: white;

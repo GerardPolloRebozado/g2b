@@ -4,11 +4,11 @@ body {
 
 @font-face {
     font-family: BoldFont;
-    src: url(../font/Demo_Fonts/Fontspring-DEMO-proximanovacond-bold.otf);
+    src: url(../font/Fontspring-DEMO-proximanova-bold.otf);
 }
 @font-face {
     font-family: NormalFont;
-    src: url(../font/Demo_Fonts/Fontspring-DEMO-proximanovacond-light.otf);
+    src: url(../font/Fontspring-DEMO-proximanova-light.otf);
 }
 
 a {
@@ -22,7 +22,7 @@ a {
     width: 170px;
     height: 55px;
     margin: auto;
-    position:absolute;
+    position: absolute;
     margin-top: 1.3vh;
     margin-left: 7%;
 
@@ -111,9 +111,6 @@ header {
     }
 }
 
-
-
-
 .footer {  
     font-family: BoldFont;
     padding-top: 2%;
@@ -179,6 +176,7 @@ height: 30%;
     grid-area: none;
 }
 .footer {
+    padding-top: 5%;
     padding-left: 7vw;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr 1fr;

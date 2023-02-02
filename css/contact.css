@@ -1,4 +1,5 @@
 
+/* Importar fuentes para el texto */
 @font-face {
     font-family: BoldFont;
     src: url(/dev_mxttw_3.2/font/Demo_Fonts/Fontspring-DEMO-proximanovacond-bold.otf);
@@ -8,14 +9,16 @@
     src: url(/dev_mxttw_3.2/font/Demo_Fonts/Fontspring-DEMO-proximanovacond-light.otf);
 }
 
-.cuerpo {
+/* Ajustes fondo */
+#cuerpo {
     background-color: #272727;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
 }
 
-.News{
+/* Ajustes div principal donde esta el formulario y el titulo */
+#News{
     background-color: #555555;
     padding-bottom: 20px;
     color: white;
@@ -25,6 +28,7 @@
     border-radius: 12px;
 }
 
+/* Ajustes titulo Contacto */
 .zonetittle {
     font-family: BoldFont;
     font-size: 30px;
@@ -36,6 +40,7 @@
     z-index: 2;
 }
 
+/* Ajustes boton */
 .btn{
     font-family: BoldFont;
     color: white;
@@ -48,44 +53,49 @@
     font-weight: bold;
   }
     
+  /* Ajustes formulario */
     form {
       border-radius: 4px;
       /* padding: 2.5rem; */
       margin-left: 5rem;
       margin-right: 5rem; 
-            color: black;
+      color: black;
     }
+
+    /* Color del texto blanco */
     label{
       color: white;
     }
+
+    /* Que haya una separacion entre cada apartado */
     .form-group {
       padding: 0.5rem;
       margin-bottom: 0.4rem;
     }
     
+    /* Bordes donde poner texto redondos*/
     input,
     textarea {
       border-radius: 4px;
     }
     
+    /* Que se vea mas bonito toda la zona de contacto */
     input:not(input[type="radio"], input[type="checkbox"]),
-    textarea,
-    select {
+    textarea {
       width: 100%;
       font-size: 1.25rem;
       line-height: 1.75rem;
     }
     
-    .inline {
-      display: inline;
-    }
+
     
-    
+    /* Email obligatorio */
     .is-required::after {
       content: '*';
       color: red;
     }
     
+    /* Para que sea responsive */
     @media (max-width: 450px) {
       
     }

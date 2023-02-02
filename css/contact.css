@@ -65,9 +65,7 @@
     
     input,
     textarea {
-      border: 1px solid var(--second-color);
       border-radius: 4px;
-      color: var(--second-color);
     }
     
     input:not(input[type="radio"], input[type="checkbox"]),

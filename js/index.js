@@ -29,4 +29,6 @@ async function changeLanguage(lang) {
     document.getElementById('footer_resources').innerHTML = data.footer_resources;
     document.getElementById('prepurchase').innerHTML = data.prepurchase;
     document.getElementById('trending').innerHTML = data.trending;
+    document.getElementById('review1').innerHTML = data.review1;
+    document.getElementById('review2').innerHTML = data.review2;
 }

@@ -1,22 +1,22 @@
 {
     "navbar_home": "INICIO",
     "navbar_games": "JUEGOS",
-    "navbar_merch": "MERCHANDISING",
+    "navbar_merch": "MERCH",
     "navbar_contact": "CONTACTO",
-    "maintitle": "NUESTRO MERCHANDISING",
-    "footer_company": "EMPRESA:",
-    "WhoAreWe": "Quienes somos?",
-    "footer_games": "Juegos:",
-    "footer_sponsors": "PATROCINADORES:",
-    "footer_resources": "RECURSOS:",
-    "footer_TC": "Términos y condiciones",
-    "footer_privacy": "Política de privacidad",
-    "social": "Redes sociales",
+
     "Contacto": "Contacto",
     "t_first_name": "Nombre",
     "last_name": "Apellido",
     "Mensaje": "Mensaje",
     "Edad": "Edad",
     "cum": "Cumpleaños",
-    "enviar": "Enviar"
+    "enviar": "Enviar",
+
+    "footer_company": "WEB:",
+    "footer_home": "Inicio",
+    "footer_games": "Juegos",
+    "footer_sponsors": "PATROCINADORES:",
+    "footer_resources": "LENGUAJES:",
+    "footer_TC": "Espanol",
+    "footer_privacy": "Catalan"
 }

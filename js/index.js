@@ -19,16 +19,18 @@ async function changeLanguage(lang) {
     document.getElementById('navbar_games').innerHTML = data.navbar_games;
     document.getElementById('navbar_merch').innerHTML = data.navbar_merch;
     document.getElementById('navbar_contact').innerHTML = data.navbar_contact;
-    document.getElementById('footer_company').innerHTML = data.footer_company;
-    document.getElementById('WhoAreWe').innerHTML = data.WhoAreWe;
-    document.getElementById('footer_games').innerHTML = data.footer_games;
     document.getElementById('footer_sponsors').innerHTML = data.footer_sponsors;
+    document.getElementById('footer_resources').innerHTML = data.footer_resources;
     document.getElementById('footer_TC').innerHTML = data.footer_TC;
     document.getElementById('footer_privacy').innerHTML = data.footer_privacy;
-    document.getElementById('social').innerHTML = data.social;
-    document.getElementById('footer_resources').innerHTML = data.footer_resources;
+
+
     document.getElementById('prepurchase').innerHTML = data.prepurchase;
     document.getElementById('trending').innerHTML = data.trending;
+    document.getElementById('BaF').innerHTML = data.BaF;
+    document.getElementById('Opiniones').innerHTML = data.Opiniones;
     document.getElementById('review1').innerHTML = data.review1;
     document.getElementById('review2').innerHTML = data.review2;
+    document.getElementById('footer_home').innerHTML = data.footer_home;
+    document.getElementById('footer_games').innerHTML = data.footer_games;
 }

@@ -233,3 +233,7 @@ body {
     margin-left: auto;
     font-size: 25px;
 }
+
+.click{
+    cursor: pointer;
+}

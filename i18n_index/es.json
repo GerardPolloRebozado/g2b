@@ -1,19 +1,20 @@
 {
     "navbar_home": "INICIO",
     "navbar_games": "JUEGOS",
-    "navbar_merch": "MERCHANDISING",
+    "navbar_merch": "MERCH",
     "navbar_contact": "CONTACTO",
-    "maintitle": "NUESTRO MERCHANDISING",
-    "footer_company": "EMPRESA:",
-    "WhoAreWe": "Quienes somos?",
-    "footer_games": "Juegos:",
     "footer_sponsors": "PATROCINADORES:",
-    "footer_resources": "RECURSOS:",
-    "footer_TC": "Términos y condiciones",
-    "footer_privacy": "Política de privacidad",
-    "social": "Redes sociales",
-    "prepurchase": "Pre Compra",
+    "footer_resources": "LENGUAJE:",
+    "footer_TC": "Espanol",
+    "footer_privacy": "Catalan",
+
+    "prepurchase": "Precompra",
     "trending": "Tendencias",
-    "review1": "reviagebdsfrngmhjew esp",
-    "review2": "review esp"
+    "BaF": "Pan y Federico",
+    "Opiniones": "Opiniones:",
+    "review1": "Opinion esp",
+    "review2": "Opinion esp 2",
+    "footer_home": "Inicio",
+    "footer_games": "Juegos"
+
 }

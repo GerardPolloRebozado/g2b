@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-        <script src="./js/index.js" defer></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/header-footer.css" />
-    <link rel="stylesheet" href="./css/home.css" />
-
+    <link rel="stylesheet" href="./css/home.css"/>
+    <script src="./js/index.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -27,7 +26,7 @@
     </header>
 
     <!-- PART 1 -->
-    <div class="container">
+    <div class="container" id="UP">
         <div class="imagendiv">
             <div class="MainContainer">
                 <div class="maintittle">Hollow Knight</div>
@@ -135,7 +134,7 @@
                 </div>
 
                 <div class="textNEW">
-                    <div class="titleNEW">Bread and Fred</div>
+                    <div class="titleNEW" id="BaF">Bread and Fred</div>
                     <div class="priceNEW">3.29€</div>
                 </div>
             </div>
@@ -172,7 +171,7 @@
 
     <!-- PART 3 -->
     <div class="Reviews">
-        <h1 class="zonetittle">Reviews:</h1>
+        <h1 class="zonetittle" id="Opiniones">Reviews:</h1>
         <div class="gridREV">
             <div class="grid-item-REV">
                 <div class="textREV">Rubén Doblas G. <div class="borde"></div></div>    
@@ -196,16 +195,16 @@
             <div class="logo">
                 <img src="./images/G2B.png" alt="logo de G2B" class="logo" width="100px" height="100px" />
             </div>
-            <br />
-            <br />
+            <br/>
+            <br/>
             <div class="company" id="footer_company">
-                <h1>COMPANY:</h1>
+                <h1>WEB:</h1>
             </div>
-            <div class="how-it-works" id="WhoAreWe">
-                <h2>Who are we?</h2>
+            <div class="how-it-works" id="footer_home">
+                <h2><a href="./index.html">Home</a></h2>
             </div>
             <div class="pricing" id="footer_games"><a href="./games.html">Games</a></div>
-            <div class="docs" id="footer_merch"><a href="./merch.html">Merch</a></div>
+            <div class="docs"><a href="./merch.html">Merch</a></div>
             <div class="resources">
                 <h1 id="footer_sponsors">SPONSORS:</h1>
             </div>
@@ -230,24 +229,18 @@
                 </a>
             </div>
             <div class="about">
-                <h1 id="footer_resources">RESOURCES:</h1>
+                <h1 id="footer_resources">LANGUAGE:</h1>
             </div>
             <div class="terms-and">
-                <h2 id="footer_TC">Terms and Conditions</h2>
+                <h2 class="click" id="footer_TC" onclick="changeLanguage('es')"><a href="#UP">Spanish</a></h2>
             </div>
             <div class="privacy-polici">
-                <h2 id="footer_privacy" >Privacy policy</h2>
+                <h2 class="click" id="footer_privacy" onclick="changeLanguage('ca')"><a href="#UP">Catalan</a></h2>
             </div>
             <div class="social-networks">
-                <h2 id="social">Social Media</h2>
+                <h2 class="click" id="social"><a href="./index.html">English</a></h2>
             </div>
         </div>
     </footer>
 </body>
-
 </html>
-<!--
-paleta colores
-azul: rgb(0, 67, 89)
-negro: rgb(0, 14, 24)
--->

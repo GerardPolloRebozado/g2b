@@ -38,9 +38,14 @@ async function changeLanguage(lang) {
     document.getElementById("m_amongusshirt").innerHTML = data.m_amongusshirt;
     document.getElementById("m_quagsireplush").innerHTML = data.m_quagsireplush;
     document.getElementById("m_berserkshirt").innerHTML = data.m_berserkshirt;
-    // document.getElementById("m_snorlaxplush").innerHTML = data.m_snorlaxplush;
     document.getElementById("m_llamaplush").innerHTML = data.m_llamaplush;
     document.getElementById("m_kirbyplush").innerHTML = data.m_kirbyplush;
     document.getElementById("m_kratosfunko").innerHTML = data.m_kratosfunko;
     document.getElementById("m_creepershirt").innerHTML = data.m_creepershirt;
+    document.getElementById('footer_resources').innerHTML = data.footer_resources;
+    document.getElementById('footer_privacy').innerHTML = data.footer_privacy;
+    document.getElementById('footer_TC').innerHTML = data.footer_TC;
+    document.getElementById('footer_home').innerHTML = data.footer_home;
+    document.getElementById('footer_games').innerHTML = data.footer_games;
+    document.getElementById('footer_sponsors').innerHTML = data.footer_sponsors;
 }

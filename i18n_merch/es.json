@@ -1,9 +1,8 @@
 {
     "navbar_home": "INICIO",
     "navbar_games": "JUEGOS",
-    "navbar_merch": "MERCHANDISING",
+    "navbar_merch": "MERCH",
     "navbar_contact": "Contacto",
-    "maintitle": "NUESTRO MERCHANDISING",
     "m_amongusplush": "Peluche Among Us",
     "m_helloneighborfunko": "Funko Pop Hello Neighbor",
     "m_kirbyshirt": "Camiseta Kirby",
@@ -15,5 +14,13 @@
     "m_llamaplush": "Peluche Llama Fortnite",
     "m_kirbyplush": "Peluche Kirby",
     "m_kratosfunko": "Funko Pop Kratos",
-    "m_creepershirt": "Camiseta Creeper"
+    "m_creepershirt": "Camiseta Creeper",
+
+    
+    "footer_sponsors": "PATROCINADORES:",
+    "footer_resources": "LENGUAJES:",
+    "footer_home": "Inicio",
+    "footer_games": "Juegos",
+    "footer_privacy": "Catalan",
+    "footer_TC": "Espanol"
 }

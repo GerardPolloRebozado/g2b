@@ -1,16 +1,15 @@
 {
     "navbar_home": "INICI",
     "navbar_games": "JOCS",
-    "navbar_merch": "MERCHANDISING",
+    "navbar_merch": "MERCH",
     "navbar_contact": "CONTACTE",
-    "maintitle": "EL NOSTRE MERCHANDISING",
-    "footer_company": "EMPRESA:",
+    "footer_company": "WEB:",
     "new_games": "JOCS",
-    "WhoAreWe": "Qui som?",
+    "footer_sponsors": "PATROCINADORS:",
+    "footer_resources": "IDIOMES:",
+
+    "footer_home": "Inici",
     "footer_games": "Jocs",
-    "footer_sponsors": "PATROCINADORS",
-    "footer_resources": "RECURSOS",
-    "footer_TC": "Termes i <br> Condicions",
-    "footer_privacy": "Política de Privacitat",
-    "social": "Xarxes Socials"
+    "footer_privacy": "Catala",
+    "footer_TC": "Espanyol"
 }

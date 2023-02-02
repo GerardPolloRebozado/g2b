@@ -20,26 +20,28 @@ const response = await fetch(`./i18n_contact/${lang}.json`);
     // Canviar els texts 
 
 
-    document.getElementById("Contacto").innerHTML = data.Contacto; 
-    document.getElementById("t_first_name").innerHTML = data.t_first_name;
-    document.getElementById("last_name").innerHTML = data.last_name;
-    document.getElementById("Mensaje").innerHTML = data.Mensaje;
-    document.getElementById("Edad").innerHTML = data.Edad;
-    document.getElementById("cum").innerHTML = data.cum;
-    document.getElementById("enviar").innerHTML = data.enviar;
+document.getElementById("Contacto").innerHTML = data.Contacto; 
+document.getElementById("t_first_name").innerHTML = data.t_first_name;
+document.getElementById("last_name").innerHTML = data.last_name;
+document.getElementById("Mensaje").innerHTML = data.Mensaje;
+document.getElementById("Edad").innerHTML = data.Edad;
+document.getElementById("cum").innerHTML = data.cum;
+document.getElementById("enviar").innerHTML = data.enviar;
 //header y footer
 document.getElementById('navbar_home').innerHTML = data.navbar_home;
 document.getElementById('navbar_games').innerHTML = data.navbar_games;
 document.getElementById('navbar_merch').innerHTML = data.navbar_merch;
 document.getElementById('navbar_contact').innerHTML = data.navbar_contact;
+
 document.getElementById('footer_company').innerHTML = data.footer_company;
-document.getElementById('WhoAreWe').innerHTML = data.WhoAreWe;
+document.getElementById('footer_home').innerHTML = data.footer_home;
 document.getElementById('footer_games').innerHTML = data.footer_games;
 document.getElementById('footer_sponsors').innerHTML = data.footer_sponsors;
+document.getElementById('footer_resources').innerHTML = data.footer_resources;
 document.getElementById('footer_TC').innerHTML = data.footer_TC;
 document.getElementById('footer_privacy').innerHTML = data.footer_privacy;
-document.getElementById('social').innerHTML = data.social;
-document.getElementById('footer_resources').innerHTML = data.footer_resources;
+
+
 
 }
 

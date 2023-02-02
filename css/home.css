@@ -54,29 +54,73 @@ color: white;
 height: 270px;
 }
 
-@media (max-width: 1457px) {
-    .grid {
-        grid-template-columns: repeat(2, 370px);
-    }
-}
-
-@media (max-width: 929px) {
-    .grid {
-        grid-template-columns: 370px;
-    }
-}
-
 .gamediv {
     width: 100%;
     height: 85%;
     border-radius: 25px;
-    background:url(../images/guts.jpeg);
     transition: transform 0.4s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .gamediv:hover {
     transform: scale(1.05);
 }
-    
+
+#HighOnLife{
+    background:url(../images/Home/HighOnLife.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#Subnautica{
+    background:url(../images/Home/Subnautica.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#DragonBall{
+    background:url(../images/Home/dragonBall.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#Ghostrunner{
+    background:url(../images/Home/Ghostrunner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#Cuphead{
+    background:url(../images/Home/cuphead.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#Sekiro{
+    background:url(../images/Home/sekiro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#BreadAndFred{
+    background:url(../images/Home/FreadAndBread.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#Deadspace{
+    background:url(../images/Home/deadspace.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#Forspoken{
+    background:url(../images/Home/Forspoken.jpeg);
+
+}
+
+
 .title{
     padding-right: 70%;
 }
@@ -100,26 +144,6 @@ height: 270px;
     font-size: 25px;
 }
 
-/* Efecto de triangulo debajo la imagen */
-/* .News::after {
-    content: "";
-    clip-path: polygon(100% 0,100% 100%,0 100%);
-    background: black;
-    height: 60px;
-    width: 100%;
-    position: absolute;
-}  */
-
-/* .maintittle{
-    color: white;
-    font-size: 30px;
-    font-family: BoldFont;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10%;
-    display: flex;
-} */
 .MainContainer{
     display: flex;
     color: white;
@@ -193,6 +217,9 @@ height: 270px;
 }
 
 @media (max-width: 1457px) {
+    .grid {
+        grid-template-columns: repeat(2, 370px);
+    }
     .News{
         padding-bottom: 25px;
     }
@@ -208,13 +235,16 @@ height: 270px;
 }
 
 @media (max-width: 929px) {
+    .grid {
+        grid-template-columns: 370px;
+    }
     .News{
         padding-bottom: 25px;
     }
     .Reviews{
-        padding-top: 20px;
+        padding-top: 30px;
     }
     .gridREV {
-        grid-template-columns: 700px;
-    }
+        grid-template-columns: 370px;
+        }
 }

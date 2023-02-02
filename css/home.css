@@ -373,3 +373,11 @@ border-radius: 25px;
             text-align: justify;
         }
 }
+
+#logo_review{
+    position: absolute;
+    /* TODO: cambiar margin */
+    margin-top: 18vh;
+    width: 8%;
+    height: 6%;
+}
